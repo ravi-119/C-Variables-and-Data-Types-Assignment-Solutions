@@ -1,2 +1,12 @@
-# C-Variables-and-Data-Types-Assignment-Solutions
-all questions 6 and solution 6 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x;
+    cin>>x;
+    int y;
+    cin>>y;
+    cout<<"product "<<x*y<<endl;
+    return 0;
+}
+  
