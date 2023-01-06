@@ -2,11 +2,9 @@
 using namespace std;
 int main()
 {
-int length;
-cin>>length;
-int breadth;
-cin>>breadth;
-int area= length*breadth;
-cout<<"area"<<" "<<length*breadth<<endl;
-return 0;
+    int num;
+    cin>>num;
+    int cube= num*num*num;
+    cout<<"cube is "<<cube<<endl;
+    return 0;
 }
