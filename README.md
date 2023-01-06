@@ -2,6 +2,11 @@
 using namespace std;
 int main()
 {
-   cout << "ASCII value of u is " << (int)'U' << endl;
-    return 0;
+int length;
+cin>>length;
+int breadth;
+cin>>breadth;
+int area= length*breadth;
+cout<<"area"<<" "<<length*breadth<<endl;
+return 0;
 }
